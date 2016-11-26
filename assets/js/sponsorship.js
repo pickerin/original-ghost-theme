@@ -10,7 +10,7 @@ function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn
 
 // Sponsorship
 var xmlhttp = new XMLHttpRequest();
-var url = "https://bloghelpers.troyhunt.com/api/CurrentSponsor";
+var url = "https://bloghelpers.robpickering.com/api/CurrentSponsor";
 
 xmlhttp.onreadystatechange = function () {
   if (this.readyState === 4 && this.status === 200) {
